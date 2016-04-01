@@ -1,0 +1,26 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+  
+  <!-- Chats Tab -->
+  <ion-tab title="Team" icon-off="ion-team-inactive" icon-on="ion-team-active" href="#/tab/team">
+    <ion-nav-view name="tab-team"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Pokedex Tab -->
+  <ion-tab title="Pokedex" icon-off="ion-pokeball-inactive" icon-on="ion-pokeball-active" href="#/tab/pokedex">
+    <ion-nav-view name="tab-pokedex"></ion-nav-view>
+  </ion-tab>
+
+  
+
+  <!-- Account Tab -->
+  <ion-tab title="Account" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>

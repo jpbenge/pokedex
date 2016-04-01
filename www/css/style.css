@@ -1,0 +1,119 @@
+/* Empty. Add your own CSS if you like */
+.pokemon-content {
+	padding: 5%;
+}
+
+.pokemon-heading {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item {
+	color: #F00;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+    color: #f00;
+}
+
+.type-normal,
+.type-fighting,
+.type-flying,
+.type-poison,
+.type-ground,
+.type-rock,
+.type-bug,
+.type-ghost,
+.type-steel,
+.type-fire,
+.type-water,
+.type-grass,
+.type-electric,
+.type-psychic,
+.type-ice,
+.type-dragon,
+.type-dark,
+.type-fairy {
+	background-color: #eee;
+	padding: 0 10px;
+}
+
+.type-grass {
+	background-color: #4d4;
+	color: #fff;
+}
+
+.type-poison {
+	background-color: #aa5588;
+	color: #fff;
+}
+
+.type-fire {
+	background-color: #ff8855;
+}
+
+.type-water {
+	background-color: #9999ff;
+}
+
+.type-ice {
+	background-color: #aaddff;
+}
+.type-electric {
+	background-color: #ffff00;
+}
+.type-fighting {
+	background-color: #dd8855;
+}
+.type-ground {
+	background-color: #886655;
+	color: #fff;
+}
+.type-bug {
+	background-color: #bf9;
+}
+.type-rock {
+	background-color: #887777;
+	color: #fff;
+}
+.type-steel {
+	background-color: #666677;
+	color: #fff;
+}
+.type-dark {
+	background-color: #110022;
+	color: #fff;
+}
+.type-ghost {
+	background-color: #552255;
+	color: #fff;
+}
+.type-psychic {
+	background-color: #ffaaaa;
+	color: #fff;
+}
+.type-dragon {
+	background-color: #66cccc;
+	color: #fff;
+}
+.type-flying {
+	background-color: #ddf;
+}
+.type-fairy {
+	background-color: #ffdddd;
+}
+
+.pokeball{
+	padding: 0 5px;
+}
+
+.team-row {
+	margin: 30px auto;
+	text-align: center;
+}
+
+.add-team-button {
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+}

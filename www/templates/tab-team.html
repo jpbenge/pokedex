@@ -1,0 +1,18 @@
+<ion-view view-title="Team">
+  <ion-content>
+    <div class="team-row">
+      <i ng-repeat="fill in filled track by $index" class="pokeball ion-pokeball-{{fill}}"></i>
+    </div>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="pokemon in team" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{pokemon.image}}" alt="{{entry.name}}">
+        <h2>{{pokemon.name}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(pokemon)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

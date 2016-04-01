@@ -1,0 +1,23 @@
+<ion-view view-title="{{pokemon.name}}">>
+  <ion-content class= "pokemon-content">
+  <h2 class="pokemon-heading">No. {{pokemon.id}} {{pokemon.name}}</h2>
+  <img src="{{pokemon.image}}" alt="{{pokemon.name}}" width="100%">
+  <div class="team-row">
+      <i ng-repeat="fill in filled track by $index" class="pokeball ion-pokeball-{{fill}}"></i>
+    </div>
+  <button class="add-team-button" ng-click="add(pokemon)">Add to Team</button>
+  <h3>Type: <span ng-repeat="type in pokemon.types" class="type-{{type.type.name}}">{{type.type.name | uppercase}}</span></h3>
+  <h4>Height: {{pokemon.height}} m</h4>
+  <h4>Weight: {{pokemon.weight}} kg</h4>
+  <h3>Abilities</h3>
+  <div ng-repeat="ability in pokemon.abilities">
+  	<h4>{{ability.ability.name}}</h4>
+  </div>
+
+  <h3>Learnable Moves</h3>
+  <div ng-repeat="move in pokemon.moves">
+    <h4>{{move.move.name}}  - Learned at lv.{{move.version_group_details[0].level_learned_at}}</h4>
+  </div>
+
+  </ion-content>
+</ion-view>
